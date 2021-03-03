@@ -8,7 +8,7 @@ class InMemoryQuoteRepository : QuoteRepository {
         QuoteEntity(2L, "Anyone who attempts to generate random numbers by deterministic means is, of course, living in a state of sin.", "John von Neumann"),
         QuoteEntity(3L, "After all, C++ isn't a perfect match for Java's design aims either.", "Bjarne Stroustrup"),
         QuoteEntity(4L, "When in doubt, use brute force.", "Ken Thompson"),
-        QuoteEntity(5L, "Do what you think is interesting, do something that you think is fun and worthwhile, because otherwise you won’t do it well anyway.", "Brian Kernighan"),
+        QuoteEntity(5L, "Do what you think is interesting, do something that you think is fun and worthwhile, because otherwise you won't do it well anyway.", "Brian Kernighan"),
         QuoteEntity(6L, "It is often easier to ask for forgiveness than to ask for permission.", "Grace Hopper"),
         QuoteEntity(7L, "We know the truth, not only by the reason, but also by the heart.", "Blaise Pascal"),
     ).associateBy { it.id }.toMutableMap()
