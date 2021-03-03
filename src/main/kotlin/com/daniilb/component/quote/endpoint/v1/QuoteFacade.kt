@@ -11,7 +11,7 @@ class QuoteFacade @Inject constructor(
     private val service: QuoteService
 ) {
 
-    fun findAll() = service.findAll()
+    fun index() = service.index()
 
     fun find(id: Long) = service.find(id) ?: throw QuoteNotFoundException(id)
 

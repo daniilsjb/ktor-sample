@@ -20,16 +20,16 @@ class QuoteRouter @Inject constructor(
 
     private fun Application.routing() =
         routing {
-            findAll()
+            index()
             find()
             save()
             update()
             delete()
         }
 
-    private fun Route.findAll() =
+    private fun Route.index() =
         get("/quotes") {
-            call.respond(facade.findAll())
+            call.respond(facade.index())
         }
 
     private fun Route.find() =

@@ -16,7 +16,7 @@ import kotlin.test.assertEquals
 class QuoteRouterIT {
 
     @Test
-    fun `should find all quotes`() = withTestApplication(Application::main) {
+    fun `should index quotes`() = withTestApplication(Application::main) {
         val quotes = listOf(
             Quote(1L, "We can only see a short distance ahead, but we can see plenty there that needs to be done.", "Alan Turing"),
             Quote(2L, "Anyone who attempts to generate random numbers by deterministic means is, of course, living in a state of sin.", "John von Neumann"),

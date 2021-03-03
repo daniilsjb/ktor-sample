@@ -15,7 +15,7 @@ class InMemoryQuoteRepository : QuoteRepository {
 
     private var counter = count()
 
-    override fun findAll() = quotes.values.toList()
+    override fun index() = quotes.values.toList()
 
     override fun find(id: Long) = quotes[id]
 

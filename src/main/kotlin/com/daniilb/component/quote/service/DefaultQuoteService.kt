@@ -6,7 +6,7 @@ class DefaultQuoteService @Inject constructor(
     private val repository: QuoteRepository
 ) : QuoteService {
 
-    override fun findAll() = repository.findAll().map { it.toQuote() }
+    override fun index() = repository.index().map { it.toQuote() }
 
     override fun find(id: Long) = repository.find(id)?.toQuote()
 

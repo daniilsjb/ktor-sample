@@ -2,7 +2,7 @@ package com.daniilb.component.quote.service
 
 interface QuoteService {
 
-    fun findAll(): List<Quote>
+    fun index(): List<Quote>
 
     fun find(id: Long): Quote?
 

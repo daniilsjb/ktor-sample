@@ -36,13 +36,13 @@ The server is configured to the port 8080.
 
 This project contains a single endpoint for managing quotes:
 
-### Find All
+### Index
 
 ```http request
 GET quotes/
 ```
 
-### Find by ID
+### Find
 
 ```http request
 GET quotes/<id>
