@@ -10,51 +10,6 @@ It showcases the usage of:
 * [Serialization](https://github.com/Kotlin/kotlinx.serialization)
 * [kotlin.test](https://kotlinlang.org/api/latest/kotlin.test/)
 
-## API
-
-This project contains a single endpoint for managing quotes:
-
-### Find All
-
-```http request
-GET quotes/
-```
-
-### Find by ID
-
-```http request
-GET quotes/{id}
-```
-
-### Post
-
-```http request
-POST quotes/
-Content-Type: application/json
-{
-    "content": "An overwhelmingly awesome quote",
-    "author": "An awesome person"
-}
-```
-
-### Put
-
-```http request
-
-PUT quotes/{id}
-Content-Type: application/json
-{
-    "content": "An overwhelmingly awesome quote",
-    "author": "An awesome person"
-}
-```
-
-### Delete
-
-```http request
-DELETE quotes/{id}
-```
-
 ## Building
 
 Building the project with [Gradle](https://gradle.org/):
@@ -76,3 +31,48 @@ Starting the server:
 ```
 
 The server is configured to the port 8080.
+
+## API
+
+This project contains a single endpoint for managing quotes:
+
+### Find All
+
+```http request
+GET quotes/
+```
+
+### Find by ID
+
+```http request
+GET quotes/<id>
+```
+
+### Post
+
+```http request
+POST quotes/
+Content-Type: application/json
+{
+    "content": "An overwhelmingly awesome quote",
+    "author": "An awesome person"
+}
+```
+
+### Put
+
+```http request
+
+PUT quotes/<id>
+Content-Type: application/json
+{
+    "content": "An overwhelmingly awesome quote",
+    "author": "An awesome person"
+}
+```
+
+### Delete
+
+```http request
+DELETE quotes/<id>
+```
