@@ -22,7 +22,7 @@ class QuoteRouterIT {
             Quote(2L, "Anyone who attempts to generate random numbers by deterministic means is, of course, living in a state of sin.", "John von Neumann"),
             Quote(3L, "After all, C++ isn't a perfect match for Java's design aims either.", "Bjarne Stroustrup"),
             Quote(4L, "When in doubt, use brute force.", "Ken Thompson"),
-            Quote(5L, "Do what you think is interesting, do something that you think is fun and worthwhile, because otherwise you won’t do it well anyway.", "Brian Kernighan"),
+            Quote(5L, "Do what you think is interesting, do something that you think is fun and worthwhile, because otherwise you won't do it well anyway.", "Brian Kernighan"),
             Quote(6L, "It is often easier to ask for forgiveness than to ask for permission.", "Grace Hopper"),
             Quote(7L, "We know the truth, not only by the reason, but also by the heart.", "Blaise Pascal"),
         )
