@@ -8,7 +8,6 @@ It showcases the usage of:
 * [Ktor](http://ktor.io)
 * [Guice](https://github.com/google/guice)
 * [Serialization](https://github.com/Kotlin/kotlinx.serialization)
-* [kotlin.test](https://kotlinlang.org/api/latest/kotlin.test/)
 
 ## Building
 
